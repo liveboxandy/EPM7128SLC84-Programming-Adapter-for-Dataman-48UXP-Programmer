@@ -1,4 +1,4 @@
-26810040316127872
+26919228486187505
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69979,6 +69979,13 @@ Yellow 5381 Series LED
 2
 2
 Mod
+4610M101103LF
+4610M-101-103LF-4
+Resistor Network
+0
+10
+10
+Mod
 C1206
 C1206
 Capacitor
@@ -70014,12 +70021,33 @@ Resistor
 2
 2
 Mod
+SAMTEC_TSW-102-07-G-S
+
+
+0
+2
+2
+Mod
+SAMTEC_TSW-105-07-L-D
+
+
+0
+10
+10
+Mod
 SAMTEC_TSW-124-07-L-S
 
 
 0
 24
 24
+Mod
+SAMTEC_TSW-124-08-T-T
+
+
+0
+72
+72
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

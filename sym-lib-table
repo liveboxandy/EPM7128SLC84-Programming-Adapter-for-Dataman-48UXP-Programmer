@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "EPM7128S_Adapter")(type "KiCad")(uri "E:/Kicad/EPM7128/SYM/EPM7128S_Adapter.kicad_sym")(options "")(descr ""))
-  (lib (name "EPM7064_Adapter")(type "KiCad")(uri "E:/Kicad/EPM7064/SYM/EPM7064_Adapter.kicad_sym")(options "")(descr ""))
+  (lib (name "TSW-124-08-T-T")(type "Legacy")(uri "${KIPRJMOD}/SYM/TSW-124-08-T-T.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "EPM7128S_Adapter")(type "KiCad")(uri "${KIPRJMOD}/SYM/EPM7128S_Adapter.kicad_sym")(options "")(descr ""))
 )

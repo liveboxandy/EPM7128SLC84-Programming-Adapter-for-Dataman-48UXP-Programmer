@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Kicad\EPM7128\EPM7128 Adapter.kicad_sch</source>
+    <date>2026-04-13T09:42:42+0100</date>
+    <tool>Eeschema 9.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Dataman Adapter for EPM7128SLC84</title>
+        <company>LiveboxAndy</company>
+        <rev>2.1</rev>
+        <date>2026-04-13</date>
+        <source>EPM7128 Adapter.kicad_sch</source>
+        <comment number="1" value="https://blog.system11.org which is for EPM7064 PLCC84 variant"/>
+        <comment number="2" value="Initial drawing based on Dataman PLCC84 Adapter V1.0 from"/>
+        <comment number="3" value="Optional pads for Capacitors on power rails."/>
+        <comment number="4" value="Added JTAG, Power and Breakout/Jumper Pin Headers"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a19158c1-08b0-4bf0-982e-cd0283856db9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56baf926-802c-4dc1-8fe9-6ec81834e5a6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7650bc59-95b4-4b13-8ee6-7890eea17e69</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>760cc4cf-b99f-4506-8e19-489c852cfd16</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>530f3d5f-7436-484e-bf36-4006fb5b93ac</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b5767d4-9615-4549-a9c1-54e5b5b45711</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09c849f7-d869-41e5-9edd-42dbd4d0d3aa</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Mod:C1206</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Mod:C1206</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b5fda18-e87d-48cb-81a3-396475c6cf79</tstamps>
+    </comp>
+    <comp ref="DATAMAN0">
+      <value>Pin-Pin Headers 1x24</value>
+      <footprint>Mod:DIL48</footprint>
+      <description>IC Socket: 24+24 Pos Receptacle DIL Straight THT</description>
+      <fields>
+        <field name="Height">4.2</field>
+        <field name="Footprint">Mod:DIL48</field>
+        <field name="Datasheet"/>
+        <field name="Description">IC Socket: 24+24 Pos Receptacle DIL Straight THT</field>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="DIL48" description="IC Socket: 24+24 Pos Receptacle DIL Straight THT"/>
+      <property name="Height" value="4.2"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7646d267-dd76-47e9-a230-6a57b79d17f1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Mod:SAMTEC_TSW-102-07-G-S</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="Footprint">Mod:SAMTEC_TSW-102-07-G-S</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="TSW-102-07-G-S" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61dfe942-30c9-4370-893a-0457ffa0886a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Mod:SAMTEC_TSW-105-07-L-D</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="DigiKey_Part_Number">SAM1030-05-ND</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TSW-105-07-L-D/Samtec+Inc./view-part/?ref=snap</field>
+        <field name="Description_1">TSW - Samtec 2.54mm Pin Header  10.92mm Overall Pin Length (07) - Fast Stock</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TSW-105-07-L-D/Samtec+Inc./view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">R</field>
+        <field name="MF">Samtec Inc.</field>
+        <field name="MP">TSW-105-07-L-D</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+        <field name="Footprint">Mod:SAMTEC_TSW-105-07-L-D</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="TSW-105-07-L-D" description=""/>
+      <property name="DigiKey_Part_Number" value="SAM1030-05-ND"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TSW-105-07-L-D/Samtec+Inc./view-part/?ref=snap"/>
+      <property name="Description_1" value="TSW - Samtec 2.54mm Pin Header  10.92mm Overall Pin Length (07) - Fast Stock"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TSW-105-07-L-D/Samtec+Inc./view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="R"/>
+      <property name="MF" value="Samtec Inc."/>
+      <property name="MP" value="TSW-105-07-L-D"/>
+      <property name="MANUFACTURER" value="Samtec Inc."/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb15dd34-ac5e-452b-b8f6-c3fb0bd828e8</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>TSW-124-08-T-T</value>
+      <footprint>Mod:SAMTEC_TSW-124-08-T-T</footprint>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="Footprint">Mod:SAMTEC_TSW-124-08-T-T</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TSW-124-08-T-T_2" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8608c2f-feaf-42f8-98df-b53922719958 83430cb3-d126-4879-8391-c939ac3b1786</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TSW-124-08-T-T</value>
+      <footprint>Mod:SAMTEC_TSW-124-08-T-T</footprint>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="Footprint">Mod:SAMTEC_TSW-124-08-T-T</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="TSW-124-08-T-T" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5eb0505-3b92-4e6e-ab44-881751fa54bc 880d8aa5-968e-4e1a-9dc1-63c84e315180</tstamps>
+    </comp>
+    <comp ref="PLCC84">
+      <value>~</value>
+      <footprint>Mod:PLCC84AT</footprint>
+      <fields>
+        <field name="Footprint">Mod:PLCC84AT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="EPM7128SLC84-10" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac3421ed-99a1-4668-9fc7-fb66e58a5cda</tstamps>
+    </comp>
+    <comp ref="RA1">
+      <value>10k</value>
+      <footprint>Mod:4610M101103LF</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <description>9 resistor network, star topology, bussed resistors, small US symbol</description>
+      <fields>
+        <field name="Footprint">Mod:4610M101103LF</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description">9 resistor network, star topology, bussed resistors, small US symbol</field>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="R_Network09_US" description="9 resistor network, star topology, bussed resistors, small US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>effe7370-0523-4453-8417-fbf36b738116</tstamps>
+    </comp>
+    <comp ref="RA2">
+      <value>10k</value>
+      <footprint>Mod:4610M101103LF</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <description>9 resistor network, star topology, bussed resistors, small US symbol</description>
+      <fields>
+        <field name="Footprint">Mod:4610M101103LF</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description">9 resistor network, star topology, bussed resistors, small US symbol</field>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="R_Network09_US" description="9 resistor network, star topology, bussed resistors, small US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84e00245-e0fb-4de3-8eac-6ea62516a3ea</tstamps>
+    </comp>
+    <comp ref="RA3">
+      <value>10k</value>
+      <footprint>Mod:4610M101103LF</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <description>9 resistor network, star topology, bussed resistors, small US symbol</description>
+      <fields>
+        <field name="Footprint">Mod:4610M101103LF</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description">9 resistor network, star topology, bussed resistors, small US symbol</field>
+      </fields>
+      <libsource lib="EPM7128S_Adapter" part="R_Network09_US" description="9 resistor network, star topology, bussed resistors, small US symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <property name="ki_fp_filters" value="R?Array?SIP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>174cf186-fafc-4a00-b954-072e98985454</tstamps>
+    </comp>
+    <comp ref="UNK_HOLE_0">
+      <value>Extraction Hole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>908b01f0-27ed-45f3-b917-3b7c68bc9f91</tstamps>
+    </comp>
+    <comp ref="UNK_HOLE_1">
+      <value>Extraction Hole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6ff3054-a68e-42f5-b704-4688a95f4cc8</tstamps>
+    </comp>
+    <comp ref="UNK_HOLE_2">
+      <value>Extraction Hole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2ebd07d-7bf9-4299-a75f-e0b09b79563c</tstamps>
+    </comp>
+    <comp ref="UNK_HOLE_3">
+      <value>Extraction Hole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="EPM7128 Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd023a58-5eb4-4599-9db3-c28c821fca06</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="TSW-124-08-T-T_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TSW-124-08-T-T</field>
+        <field name="Footprint">SAMTEC_TSW-124-08-T-T</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="56" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="58" type="passive"/>
+        <pin num="59" name="59" type="passive"/>
+        <pin num="60" name="60" type="passive"/>
+        <pin num="61" name="61" type="passive"/>
+        <pin num="62" name="62" type="passive"/>
+        <pin num="63" name="63" type="passive"/>
+        <pin num="64" name="64" type="passive"/>
+        <pin num="65" name="65" type="passive"/>
+        <pin num="66" name="66" type="passive"/>
+        <pin num="67" name="67" type="passive"/>
+        <pin num="68" name="68" type="passive"/>
+        <pin num="69" name="69" type="passive"/>
+        <pin num="70" name="70" type="passive"/>
+        <pin num="71" name="71" type="passive"/>
+        <pin num="72" name="72" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPM7128S_Adapter" part="DIL48">
+      <description>IC Socket: 24+24 Pos Receptacle DIL Straight THT</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIL48</field>
+        <field name="Footprint">Mod:DIL48</field>
+        <field name="Datasheet"/>
+        <field name="Description">IC Socket: 24+24 Pos Receptacle DIL Straight THT</field>
+        <field name="Height">4.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPM7128S_Adapter" part="EPM7128SLC84-10">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EPM7128SLC84-10</field>
+        <field name="Footprint">Mod:PLCC84AT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">6.7</field>
+        <field name="MANUFACTURER">Altera</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT/GLCRN" type="bidirectional"/>
+        <pin num="2" name="INPUT/OE2/(GCLK2)" type="bidirectional"/>
+        <pin num="3" name="VCCINT" type="power_in"/>
+        <pin num="4" name="I/O_4" type="bidirectional"/>
+        <pin num="5" name="I/O_5" type="bidirectional"/>
+        <pin num="6" name="I/O_6" type="bidirectional"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="I/O_8" type="bidirectional"/>
+        <pin num="9" name="I/O_9" type="bidirectional"/>
+        <pin num="10" name="I/O_10" type="bidirectional"/>
+        <pin num="11" name="I/O_11" type="bidirectional"/>
+        <pin num="12" name="I/O_12" type="bidirectional"/>
+        <pin num="13" name="VCCIO" type="power_in"/>
+        <pin num="14" name="I/O/TDI_14" type="bidirectional"/>
+        <pin num="15" name="I/O_15" type="bidirectional"/>
+        <pin num="16" name="I/O_16" type="bidirectional"/>
+        <pin num="17" name="I/O_17" type="bidirectional"/>
+        <pin num="18" name="I/O_18" type="bidirectional"/>
+        <pin num="19" name="GND__1" type="power_in"/>
+        <pin num="20" name="I/O_20" type="bidirectional"/>
+        <pin num="21" name="I/O_21" type="bidirectional"/>
+        <pin num="22" name="I/O_22" type="bidirectional"/>
+        <pin num="23" name="I/O/TMS_23" type="bidirectional"/>
+        <pin num="24" name="I/O_24" type="bidirectional"/>
+        <pin num="25" name="I/O_25" type="bidirectional"/>
+        <pin num="26" name="VCCIO__1" type="power_in"/>
+        <pin num="27" name="I/O_27" type="bidirectional"/>
+        <pin num="28" name="I/O_28" type="bidirectional"/>
+        <pin num="29" name="I/O_29" type="bidirectional"/>
+        <pin num="30" name="I/O_30" type="bidirectional"/>
+        <pin num="31" name="I/O_31" type="bidirectional"/>
+        <pin num="32" name="GND__2" type="power_in"/>
+        <pin num="33" name="I/O_33" type="bidirectional"/>
+        <pin num="34" name="I/O_34" type="bidirectional"/>
+        <pin num="35" name="I/O_35" type="bidirectional"/>
+        <pin num="36" name="I/O_36" type="bidirectional"/>
+        <pin num="37" name="I/O_37" type="bidirectional"/>
+        <pin num="38" name="VCCIO__2" type="power_in"/>
+        <pin num="39" name="I/O_39" type="bidirectional"/>
+        <pin num="40" name="I/O_40" type="bidirectional"/>
+        <pin num="41" name="I/O_41" type="bidirectional"/>
+        <pin num="42" name="GND__3" type="power_in"/>
+        <pin num="43" name="VCCINT__1" type="power_in"/>
+        <pin num="44" name="I/O_44" type="bidirectional"/>
+        <pin num="45" name="I/O_45" type="bidirectional"/>
+        <pin num="46" name="I/O_46" type="bidirectional"/>
+        <pin num="47" name="GND__4" type="power_in"/>
+        <pin num="48" name="I/O_48" type="bidirectional"/>
+        <pin num="49" name="I/O_49" type="bidirectional"/>
+        <pin num="50" name="I/O_50" type="bidirectional"/>
+        <pin num="51" name="I/O_51" type="bidirectional"/>
+        <pin num="52" name="I/O_52" type="bidirectional"/>
+        <pin num="53" name="VCCIO__3" type="power_in"/>
+        <pin num="54" name="I/O_54" type="bidirectional"/>
+        <pin num="55" name="I/O_55" type="bidirectional"/>
+        <pin num="56" name="I/O_56" type="bidirectional"/>
+        <pin num="57" name="I/O_57" type="bidirectional"/>
+        <pin num="58" name="I/O_58" type="bidirectional"/>
+        <pin num="59" name="GND__5" type="power_in"/>
+        <pin num="60" name="I/O_60" type="bidirectional"/>
+        <pin num="61" name="I/O_61" type="bidirectional"/>
+        <pin num="62" name="I/O/TCK_62" type="bidirectional"/>
+        <pin num="63" name="I/O_63" type="bidirectional"/>
+        <pin num="64" name="I/O_64" type="bidirectional"/>
+        <pin num="65" name="I/O_65" type="bidirectional"/>
+        <pin num="66" name="VCCIO__4" type="power_in"/>
+        <pin num="67" name="I/O_67" type="bidirectional"/>
+        <pin num="68" name="I/O_68" type="bidirectional"/>
+        <pin num="69" name="I/O_69" type="bidirectional"/>
+        <pin num="70" name="I/O_70" type="bidirectional"/>
+        <pin num="71" name="I/O/TDO_71" type="bidirectional"/>
+        <pin num="72" name="GND__6" type="power_in"/>
+        <pin num="73" name="I/O_73" type="bidirectional"/>
+        <pin num="74" name="I/O_74" type="bidirectional"/>
+        <pin num="75" name="I/O_75" type="bidirectional"/>
+        <pin num="76" name="I/O_76" type="bidirectional"/>
+        <pin num="77" name="I/O_77" type="bidirectional"/>
+        <pin num="78" name="VCCIO__5" type="power_in"/>
+        <pin num="79" name="I/O_79" type="bidirectional"/>
+        <pin num="80" name="I/O_80" type="bidirectional"/>
+        <pin num="81" name="I/O_81" type="bidirectional"/>
+        <pin num="82" name="GND__7" type="power_in"/>
+        <pin num="83" name="INPUT/GCLK1" type="bidirectional"/>
+        <pin num="84" name="INPUT/OE1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPM7128S_Adapter" part="R_Network09_US">
+      <description>9 resistor network, star topology, bussed resistors, small US symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network09_US</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP10</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+        <field name="Description">9 resistor network, star topology, bussed resistors, small US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+        <pin num="10" name="R9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPM7128S_Adapter" part="TSW-102-07-G-S">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TSW-102-07-G-S</field>
+        <field name="Footprint">TSW-102-07-G-S:SAMTEC_TSW-102-07-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPM7128S_Adapter" part="TSW-105-07-L-D">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TSW-105-07-L-D</field>
+        <field name="Footprint">TSW-105-07-L-D:SAMTEC_TSW-105-07-L-D</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="DigiKey_Part_Number">SAM1030-05-ND</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TSW-105-07-L-D/Samtec+Inc./view-part/?ref=snap</field>
+        <field name="Description_1">TSW - Samtec 2.54mm Pin Header  10.92mm Overall Pin Length (07) - Fast Stock</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TSW-105-07-L-D/Samtec+Inc./view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">R</field>
+        <field name="MF">Samtec Inc.</field>
+        <field name="MP">TSW-105-07-L-D</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EPM7128S_Adapter" part="TSW-124-08-T-T">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TSW-124-08-T-T</field>
+        <field name="Footprint">SAMTEC_TSW-124-08-T-T</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="56" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="58" type="passive"/>
+        <pin num="59" name="59" type="passive"/>
+        <pin num="60" name="60" type="passive"/>
+        <pin num="61" name="61" type="passive"/>
+        <pin num="62" name="62" type="passive"/>
+        <pin num="63" name="63" type="passive"/>
+        <pin num="64" name="64" type="passive"/>
+        <pin num="65" name="65" type="passive"/>
+        <pin num="66" name="66" type="passive"/>
+        <pin num="67" name="67" type="passive"/>
+        <pin num="68" name="68" type="passive"/>
+        <pin num="69" name="69" type="passive"/>
+        <pin num="70" name="70" type="passive"/>
+        <pin num="71" name="71" type="passive"/>
+        <pin num="72" name="72" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="EPM7128S_Adapter">
+      <uri>E:\Kicad\EPM7128/SYM/EPM7128S_Adapter.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GCLK" class="Default">
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="PLCC84" pin="83" pinfunction="INPUT/GCLK1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="GLCRn" class="Default">
+      <node ref="J3" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="PLCC84" pin="1" pinfunction="INPUT/GLCRN" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="J1" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="J3" pin="70" pinfunction="70" pintype="passive"/>
+    </net>
+    <net code="4" name="IO4" class="Default">
+      <node ref="J3" pin="07" pinfunction="07" pintype="passive"/>
+      <node ref="PLCC84" pin="4" pinfunction="I/O_4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="IO6" class="Default">
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="PLCC84" pin="6" pinfunction="I/O_6" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="IO8" class="Default">
+      <node ref="J3" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="PLCC84" pin="8" pinfunction="I/O_8" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="IO9" class="Default">
+      <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="PLCC84" pin="9" pinfunction="I/O_9" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="IO11" class="Default">
+      <node ref="J3" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="PLCC84" pin="11" pinfunction="I/O_11" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="IO12" class="Default">
+      <node ref="J3" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="PLCC84" pin="12" pinfunction="I/O_12" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="IO14" class="Default">
+      <node ref="J2" pin="09" pinfunction="09" pintype="passive"/>
+      <node ref="J3" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="PLCC84" pin="14" pinfunction="I/O/TDI_14" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="IO15" class="Default">
+      <node ref="J3" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="PLCC84" pin="15" pinfunction="I/O_15" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="IO20" class="Default">
+      <node ref="J3" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="PLCC84" pin="20" pinfunction="I/O_20" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="IO21" class="Default">
+      <node ref="J3" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="PLCC84" pin="21" pinfunction="I/O_21" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="IO23" class="Default">
+      <node ref="J2" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="J3" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="PLCC84" pin="23" pinfunction="I/O/TMS_23" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="IO30" class="Default">
+      <node ref="J3" pin="40" pinfunction="40" pintype="passive"/>
+      <node ref="PLCC84" pin="30" pinfunction="I/O_30" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="IO31" class="Default">
+      <node ref="J3" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="PLCC84" pin="31" pinfunction="I/O_31" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="IO33" class="Default">
+      <node ref="J3" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="PLCC84" pin="33" pinfunction="I/O_33" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="IO34" class="Default">
+      <node ref="J3" pin="49" pinfunction="49" pintype="passive"/>
+      <node ref="PLCC84" pin="34" pinfunction="I/O_34" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="IO35" class="Default">
+      <node ref="J3" pin="52" pinfunction="52" pintype="passive"/>
+      <node ref="PLCC84" pin="35" pinfunction="I/O_35" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="IO37" class="Default">
+      <node ref="J3" pin="55" pinfunction="55" pintype="passive"/>
+      <node ref="PLCC84" pin="37" pinfunction="I/O_37" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="IO39" class="Default">
+      <node ref="J3" pin="58" pinfunction="58" pintype="passive"/>
+      <node ref="PLCC84" pin="39" pinfunction="I/O_39" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="IO40" class="Default">
+      <node ref="J3" pin="61" pinfunction="61" pintype="passive"/>
+      <node ref="PLCC84" pin="40" pinfunction="I/O_40" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="IO45" class="Default">
+      <node ref="J4" pin="70" pinfunction="70" pintype="passive"/>
+      <node ref="PLCC84" pin="45" pinfunction="I/O_45" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="IO46" class="Default">
+      <node ref="J4" pin="67" pinfunction="67" pintype="passive"/>
+      <node ref="PLCC84" pin="46" pinfunction="I/O_46" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="IO48" class="Default">
+      <node ref="J4" pin="64" pinfunction="64" pintype="passive"/>
+      <node ref="PLCC84" pin="48" pinfunction="I/O_48" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="IO50" class="Default">
+      <node ref="J4" pin="61" pinfunction="61" pintype="passive"/>
+      <node ref="PLCC84" pin="50" pinfunction="I/O_50" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="IO51" class="Default">
+      <node ref="J4" pin="58" pinfunction="58" pintype="passive"/>
+      <node ref="PLCC84" pin="51" pinfunction="I/O_51" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="IO52" class="Default">
+      <node ref="J4" pin="55" pinfunction="55" pintype="passive"/>
+      <node ref="PLCC84" pin="52" pinfunction="I/O_52" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="IO54" class="Default">
+      <node ref="J4" pin="52" pinfunction="52" pintype="passive"/>
+      <node ref="PLCC84" pin="54" pinfunction="I/O_54" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="IO55" class="Default">
+      <node ref="J4" pin="49" pinfunction="49" pintype="passive"/>
+      <node ref="PLCC84" pin="55" pinfunction="I/O_55" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="IO57" class="Default">
+      <node ref="J4" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="PLCC84" pin="57" pinfunction="I/O_57" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="IO60" class="Default">
+      <node ref="J4" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="PLCC84" pin="60" pinfunction="I/O_60" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="IO62" class="Default">
+      <node ref="J2" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J4" pin="40" pinfunction="40" pintype="passive"/>
+      <node ref="PLCC84" pin="62" pinfunction="I/O/TCK_62" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="IO64" class="Default">
+      <node ref="J4" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="PLCC84" pin="64" pinfunction="I/O_64" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="IO65" class="Default">
+      <node ref="J4" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="PLCC84" pin="65" pinfunction="I/O_65" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="IO67" class="Default">
+      <node ref="J4" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="PLCC84" pin="67" pinfunction="I/O_67" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="IO69" class="Default">
+      <node ref="J4" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="PLCC84" pin="69" pinfunction="I/O_69" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="IO70" class="Default">
+      <node ref="J4" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="PLCC84" pin="70" pinfunction="I/O_70" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="IO71" class="Default">
+      <node ref="J2" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="J4" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="PLCC84" pin="71" pinfunction="I/O/TDO_71" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="IO73" class="Default">
+      <node ref="J4" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="PLCC84" pin="73" pinfunction="I/O_73" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="IO77" class="Default">
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="PLCC84" pin="77" pinfunction="I/O_77" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="IO81" class="Default">
+      <node ref="J4" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="PLCC84" pin="81" pinfunction="I/O_81" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(DATAMAN0-Pad1)" class="Default">
+      <node ref="DATAMAN0" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="J3" pin="03" pinfunction="03" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(DATAMAN0-Pad2)" class="Default">
+      <node ref="DATAMAN0" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="J3" pin="06" pinfunction="06" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(DATAMAN0-Pad3)" class="Default">
+      <node ref="DATAMAN0" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="08" pinfunction="08" pintype="passive"/>
+      <node ref="J3" pin="09" pinfunction="09" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(DATAMAN0-Pad4)" class="Default">
+      <node ref="DATAMAN0" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(DATAMAN0-Pad5)" class="Default">
+      <node ref="DATAMAN0" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(DATAMAN0-Pad6)" class="Default">
+      <node ref="DATAMAN0" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J3" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(DATAMAN0-Pad7)" class="Default">
+      <node ref="DATAMAN0" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J3" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J3" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(DATAMAN0-Pad8)" class="Default">
+      <node ref="DATAMAN0" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J3" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="J3" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(DATAMAN0-Pad9)" class="Default">
+      <node ref="DATAMAN0" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="J3" pin="27" pinfunction="27" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(DATAMAN0-Pad10)" class="Default">
+      <node ref="DATAMAN0" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J3" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="J3" pin="30" pinfunction="30" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(DATAMAN0-Pad11)" class="Default">
+      <node ref="DATAMAN0" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="J3" pin="33" pinfunction="33" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(DATAMAN0-Pad12)" class="Default">
+      <node ref="DATAMAN0" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J3" pin="35" pinfunction="35" pintype="passive"/>
+      <node ref="J3" pin="36" pinfunction="36" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(DATAMAN0-Pad13)" class="Default">
+      <node ref="DATAMAN0" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J3" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="J3" pin="39" pinfunction="39" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(DATAMAN0-Pad14)" class="Default">
+      <node ref="DATAMAN0" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J3" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="J3" pin="42" pinfunction="42" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(DATAMAN0-Pad15)" class="Default">
+      <node ref="DATAMAN0" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J3" pin="44" pinfunction="44" pintype="passive"/>
+      <node ref="J3" pin="45" pinfunction="45" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(DATAMAN0-Pad16)" class="Default">
+      <node ref="DATAMAN0" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J3" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="J3" pin="48" pinfunction="48" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(DATAMAN0-Pad17)" class="Default">
+      <node ref="DATAMAN0" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J3" pin="50" pinfunction="50" pintype="passive"/>
+      <node ref="J3" pin="51" pinfunction="51" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(DATAMAN0-Pad18)" class="Default">
+      <node ref="DATAMAN0" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="J3" pin="53" pinfunction="53" pintype="passive"/>
+      <node ref="J3" pin="54" pinfunction="54" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(DATAMAN0-Pad19)" class="Default">
+      <node ref="DATAMAN0" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J3" pin="56" pinfunction="56" pintype="passive"/>
+      <node ref="J3" pin="57" pinfunction="57" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(DATAMAN0-Pad20)" class="Default">
+      <node ref="DATAMAN0" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J3" pin="59" pinfunction="59" pintype="passive"/>
+      <node ref="J3" pin="60" pinfunction="60" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(DATAMAN0-Pad21)" class="Default">
+      <node ref="DATAMAN0" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="J3" pin="62" pinfunction="62" pintype="passive"/>
+      <node ref="J3" pin="63" pinfunction="63" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(DATAMAN0-Pad22)" class="Default">
+      <node ref="DATAMAN0" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="J3" pin="65" pinfunction="65" pintype="passive"/>
+      <node ref="J3" pin="66" pinfunction="66" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(DATAMAN0-Pad23)" class="Default">
+      <node ref="DATAMAN0" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="J3" pin="68" pinfunction="68" pintype="passive"/>
+      <node ref="J3" pin="69" pinfunction="69" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(DATAMAN0-Pad24)" class="Default">
+      <node ref="DATAMAN0" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="J3" pin="71" pinfunction="71" pintype="passive"/>
+      <node ref="J3" pin="72" pinfunction="72" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(DATAMAN0-Pad25)" class="Default">
+      <node ref="DATAMAN0" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="J4" pin="71" pinfunction="71" pintype="passive"/>
+      <node ref="J4" pin="72" pinfunction="72" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(DATAMAN0-Pad26)" class="Default">
+      <node ref="DATAMAN0" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="J4" pin="68" pinfunction="68" pintype="passive"/>
+      <node ref="J4" pin="69" pinfunction="69" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(DATAMAN0-Pad27)" class="Default">
+      <node ref="DATAMAN0" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="J4" pin="65" pinfunction="65" pintype="passive"/>
+      <node ref="J4" pin="66" pinfunction="66" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(DATAMAN0-Pad28)" class="Default">
+      <node ref="DATAMAN0" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="J4" pin="62" pinfunction="62" pintype="passive"/>
+      <node ref="J4" pin="63" pinfunction="63" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(DATAMAN0-Pad29)" class="Default">
+      <node ref="DATAMAN0" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="J4" pin="59" pinfunction="59" pintype="passive"/>
+      <node ref="J4" pin="60" pinfunction="60" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(DATAMAN0-Pad30)" class="Default">
+      <node ref="DATAMAN0" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J4" pin="56" pinfunction="56" pintype="passive"/>
+      <node ref="J4" pin="57" pinfunction="57" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(DATAMAN0-Pad31)" class="Default">
+      <node ref="DATAMAN0" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="J4" pin="53" pinfunction="53" pintype="passive"/>
+      <node ref="J4" pin="54" pinfunction="54" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(DATAMAN0-Pad32)" class="Default">
+      <node ref="DATAMAN0" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="J4" pin="50" pinfunction="50" pintype="passive"/>
+      <node ref="J4" pin="51" pinfunction="51" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(DATAMAN0-Pad33)" class="Default">
+      <node ref="DATAMAN0" pin="33" pinfunction="33" pintype="passive"/>
+      <node ref="J4" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="J4" pin="48" pinfunction="48" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(DATAMAN0-Pad34)" class="Default">
+      <node ref="DATAMAN0" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="J4" pin="44" pinfunction="44" pintype="passive"/>
+      <node ref="J4" pin="45" pinfunction="45" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(DATAMAN0-Pad35)" class="Default">
+      <node ref="DATAMAN0" pin="35" pinfunction="35" pintype="passive"/>
+      <node ref="J4" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="J4" pin="42" pinfunction="42" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(DATAMAN0-Pad36)" class="Default">
+      <node ref="DATAMAN0" pin="36" pinfunction="36" pintype="passive"/>
+      <node ref="J4" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="J4" pin="39" pinfunction="39" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(DATAMAN0-Pad37)" class="Default">
+      <node ref="DATAMAN0" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="J4" pin="35" pinfunction="35" pintype="passive"/>
+      <node ref="J4" pin="36" pinfunction="36" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(DATAMAN0-Pad38)" class="Default">
+      <node ref="DATAMAN0" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="J4" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="J4" pin="33" pinfunction="33" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(DATAMAN0-Pad39)" class="Default">
+      <node ref="DATAMAN0" pin="39" pinfunction="39" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="J4" pin="30" pinfunction="30" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(DATAMAN0-Pad40)" class="Default">
+      <node ref="DATAMAN0" pin="40" pinfunction="40" pintype="passive"/>
+      <node ref="J4" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="27" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(DATAMAN0-Pad41)" class="Default">
+      <node ref="DATAMAN0" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="J4" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="J4" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(DATAMAN0-Pad42)" class="Default">
+      <node ref="DATAMAN0" pin="42" pinfunction="42" pintype="passive"/>
+      <node ref="J4" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J4" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(DATAMAN0-Pad43)" class="Default">
+      <node ref="DATAMAN0" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(DATAMAN0-Pad44)" class="Default">
+      <node ref="DATAMAN0" pin="44" pinfunction="44" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(DATAMAN0-Pad45)" class="Default">
+      <node ref="DATAMAN0" pin="45" pinfunction="45" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(DATAMAN0-Pad46)" class="Default">
+      <node ref="DATAMAN0" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="J4" pin="08" pinfunction="08" pintype="passive"/>
+      <node ref="J4" pin="09" pinfunction="09" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(DATAMAN0-Pad47)" class="Default">
+      <node ref="DATAMAN0" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="J4" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="J4" pin="06" pinfunction="06" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(DATAMAN0-Pad48)" class="Default">
+      <node ref="DATAMAN0" pin="48" pinfunction="48" pintype="passive"/>
+      <node ref="J4" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="J4" pin="03" pinfunction="03" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(J2-Pad02)" class="Default">
+      <node ref="J2" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(PLCC84-GND)" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="PLCC84" pin="19" pinfunction="GND__1" pintype="power_in"/>
+      <node ref="PLCC84" pin="32" pinfunction="GND__2" pintype="power_in"/>
+      <node ref="PLCC84" pin="42" pinfunction="GND__3" pintype="power_in"/>
+      <node ref="PLCC84" pin="47" pinfunction="GND__4" pintype="power_in"/>
+      <node ref="PLCC84" pin="59" pinfunction="GND__5" pintype="power_in"/>
+      <node ref="PLCC84" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="PLCC84" pin="72" pinfunction="GND__6" pintype="power_in"/>
+      <node ref="PLCC84" pin="82" pinfunction="GND__7" pintype="power_in"/>
+      <node ref="RA1" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="RA2" pin="1" pinfunction="common" pintype="passive"/>
+      <node ref="RA3" pin="1" pinfunction="common" pintype="passive"/>
+    </net>
+    <net code="93" name="OE1n" class="Default">
+      <node ref="J4" pin="07" pinfunction="07" pintype="passive"/>
+      <node ref="PLCC84" pin="84" pinfunction="INPUT/OE1" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="OE2n" class="Default">
+      <node ref="J3" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="PLCC84" pin="2" pinfunction="INPUT/OE2/(GCLK2)" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="RNET-IO5" class="Default">
+      <node ref="PLCC84" pin="5" pinfunction="I/O_5" pintype="bidirectional"/>
+      <node ref="RA1" pin="10" pinfunction="R9" pintype="passive"/>
+    </net>
+    <net code="96" name="RNET-IO10" class="Default">
+      <node ref="PLCC84" pin="10" pinfunction="I/O_10" pintype="bidirectional"/>
+      <node ref="RA1" pin="9" pinfunction="R8" pintype="passive"/>
+    </net>
+    <net code="97" name="RNET-IO16" class="Default">
+      <node ref="PLCC84" pin="16" pinfunction="I/O_16" pintype="bidirectional"/>
+      <node ref="RA1" pin="8" pinfunction="R7" pintype="passive"/>
+    </net>
+    <net code="98" name="RNET-IO17" class="Default">
+      <node ref="PLCC84" pin="17" pinfunction="I/O_17" pintype="bidirectional"/>
+      <node ref="RA1" pin="7" pinfunction="R6" pintype="passive"/>
+    </net>
+    <net code="99" name="RNET-IO18" class="Default">
+      <node ref="PLCC84" pin="18" pinfunction="I/O_18" pintype="bidirectional"/>
+      <node ref="RA1" pin="6" pinfunction="R5" pintype="passive"/>
+    </net>
+    <net code="100" name="RNET-IO22" class="Default">
+      <node ref="PLCC84" pin="22" pinfunction="I/O_22" pintype="bidirectional"/>
+      <node ref="RA1" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="101" name="RNET-IO24" class="Default">
+      <node ref="PLCC84" pin="24" pinfunction="I/O_24" pintype="bidirectional"/>
+      <node ref="RA1" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="102" name="RNET-IO25" class="Default">
+      <node ref="PLCC84" pin="25" pinfunction="I/O_25" pintype="bidirectional"/>
+      <node ref="RA1" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="103" name="RNET-IO27" class="Default">
+      <node ref="PLCC84" pin="27" pinfunction="I/O_27" pintype="bidirectional"/>
+      <node ref="RA1" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="104" name="RNET-IO28" class="Default">
+      <node ref="PLCC84" pin="28" pinfunction="I/O_28" pintype="bidirectional"/>
+      <node ref="RA2" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="105" name="RNET-IO29" class="Default">
+      <node ref="PLCC84" pin="29" pinfunction="I/O_29" pintype="bidirectional"/>
+      <node ref="RA2" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="106" name="RNET-IO36" class="Default">
+      <node ref="PLCC84" pin="36" pinfunction="I/O_36" pintype="bidirectional"/>
+      <node ref="RA2" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="107" name="RNET-IO41" class="Default">
+      <node ref="PLCC84" pin="41" pinfunction="I/O_41" pintype="bidirectional"/>
+      <node ref="RA2" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="108" name="RNET-IO44" class="Default">
+      <node ref="PLCC84" pin="44" pinfunction="I/O_44" pintype="bidirectional"/>
+      <node ref="RA2" pin="6" pinfunction="R5" pintype="passive"/>
+    </net>
+    <net code="109" name="RNET-IO49" class="Default">
+      <node ref="PLCC84" pin="49" pinfunction="I/O_49" pintype="bidirectional"/>
+      <node ref="RA2" pin="7" pinfunction="R6" pintype="passive"/>
+    </net>
+    <net code="110" name="RNET-IO56" class="Default">
+      <node ref="PLCC84" pin="56" pinfunction="I/O_56" pintype="bidirectional"/>
+      <node ref="RA2" pin="8" pinfunction="R7" pintype="passive"/>
+    </net>
+    <net code="111" name="RNET-IO58" class="Default">
+      <node ref="PLCC84" pin="58" pinfunction="I/O_58" pintype="bidirectional"/>
+      <node ref="RA2" pin="9" pinfunction="R8" pintype="passive"/>
+    </net>
+    <net code="112" name="RNET-IO61" class="Default">
+      <node ref="PLCC84" pin="61" pinfunction="I/O_61" pintype="bidirectional"/>
+      <node ref="RA3" pin="2" pinfunction="R1" pintype="passive"/>
+    </net>
+    <net code="113" name="RNET-IO63" class="Default">
+      <node ref="PLCC84" pin="63" pinfunction="I/O_63" pintype="bidirectional"/>
+      <node ref="RA3" pin="3" pinfunction="R2" pintype="passive"/>
+    </net>
+    <net code="114" name="RNET-IO68" class="Default">
+      <node ref="PLCC84" pin="68" pinfunction="I/O_68" pintype="bidirectional"/>
+      <node ref="RA3" pin="4" pinfunction="R3" pintype="passive"/>
+    </net>
+    <net code="115" name="RNET-IO74" class="Default">
+      <node ref="PLCC84" pin="74" pinfunction="I/O_74" pintype="bidirectional"/>
+      <node ref="RA3" pin="5" pinfunction="R4" pintype="passive"/>
+    </net>
+    <net code="116" name="RNET-IO75" class="Default">
+      <node ref="PLCC84" pin="75" pinfunction="I/O_75" pintype="bidirectional"/>
+      <node ref="RA3" pin="6" pinfunction="R5" pintype="passive"/>
+    </net>
+    <net code="117" name="RNET-IO76" class="Default">
+      <node ref="PLCC84" pin="76" pinfunction="I/O_76" pintype="bidirectional"/>
+      <node ref="RA3" pin="7" pinfunction="R6" pintype="passive"/>
+    </net>
+    <net code="118" name="RNET-IO79" class="Default">
+      <node ref="PLCC84" pin="79" pinfunction="I/O_79" pintype="bidirectional"/>
+      <node ref="RA3" pin="8" pinfunction="R7" pintype="passive"/>
+    </net>
+    <net code="119" name="RNET-IO80" class="Default">
+      <node ref="PLCC84" pin="80" pinfunction="I/O_80" pintype="bidirectional"/>
+      <node ref="RA3" pin="9" pinfunction="R8" pintype="passive"/>
+    </net>
+    <net code="120" name="VCC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J2" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="PLCC84" pin="13" pinfunction="VCCIO" pintype="power_in"/>
+      <node ref="PLCC84" pin="26" pinfunction="VCCIO__1" pintype="power_in"/>
+      <node ref="PLCC84" pin="3" pinfunction="VCCINT" pintype="power_in"/>
+      <node ref="PLCC84" pin="38" pinfunction="VCCIO__2" pintype="power_in"/>
+      <node ref="PLCC84" pin="43" pinfunction="VCCINT__1" pintype="power_in"/>
+      <node ref="PLCC84" pin="53" pinfunction="VCCIO__3" pintype="power_in"/>
+      <node ref="PLCC84" pin="66" pinfunction="VCCIO__4" pintype="power_in"/>
+      <node ref="PLCC84" pin="78" pinfunction="VCCIO__5" pintype="power_in"/>
+    </net>
+    <net code="121" name="unconnected-(J2-Pad06)" class="Default">
+      <node ref="J2" pin="06" pinfunction="06" pintype="passive+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J2-Pad07)" class="Default">
+      <node ref="J2" pin="07" pinfunction="07" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J2-Pad08)" class="Default">
+      <node ref="J2" pin="08" pinfunction="08" pintype="passive+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(J3-Pad64)" class="Default">
+      <node ref="J3" pin="64" pinfunction="64" pintype="passive+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(J3-Pad67)" class="Default">
+      <node ref="J3" pin="67" pinfunction="67" pintype="passive+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(J4-Pad04)" class="Default">
+      <node ref="J4" pin="04" pinfunction="04" pintype="passive+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(RA2-R9-Pad10)" class="Default">
+      <node ref="RA2" pin="10" pinfunction="R9" pintype="passive+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(RA3-R9-Pad10)" class="Default">
+      <node ref="RA3" pin="10" pinfunction="R9" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
