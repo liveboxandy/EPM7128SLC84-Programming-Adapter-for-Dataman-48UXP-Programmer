@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.8"
     },
-    "CreationDate": "2026-03-24T13:32:18+00:00"
+    "CreationDate": "2026-04-27T14:38:10+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "EPM7128 Adapter",
       "GUID": "45504d37-3132-4382-9041-646170746572",
-      "Revision": "1.1"
+      "Revision": "2.1"
     },
     "Size": {
-      "X": 76.3725,
-      "Y": 82.9564
+      "X": 82.4064,
+      "Y": 76.4064
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -28,8 +28,8 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.4,
+      "RegionToRegion": 0.4
     }
   ],
   "FilesAttributes": [
