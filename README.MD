@@ -1,3 +1,5 @@
+# EPM7128SLC84-Programming-Adapter-for-Dataman-48UXP-Programmer
+
 This adapter allows a Dataman UXP48 parallel programmer to program Altera EPM7128SLC84 devices that have been JTAG locked. 
 
 The pinout has been taken from the Dataman documentation and I see no reason why it shouldn't work on any EPM7128 PLCC84 devices as they all use the same adapter SDP-7128-84 according to the documentation. 
